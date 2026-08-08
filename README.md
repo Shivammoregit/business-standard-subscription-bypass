@@ -1,4 +1,4 @@
-# ⚡ Business Standard Full Article Unblocker & Reader Extension
+# ⚡ Business Standard Full Article Unblocker Extension
 
 A lightweight Chrome / Microsoft Edge extension (Manifest V3) that automatically unlocks complete article content, restores missing paragraphs, removes client-side paywall overlays/blurs, and provides a clean Reader Mode for **Business Standard** articles with a full **On/Off Toggle Switch**.
 
