@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BS Article Unblocker</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="popup-container">
+    <div class="popup-header">
+      <div class="brand">
+        <div class="brand-icon">⚡</div>
+        <div class="brand-text">
+          <h2>BS Unblocker</h2>
+          <span class="brand-subtitle">Business Standard Full Reader</span>
+        </div>
+      </div>
+      <label class="switch" title="Toggle Extension On/Off">
+        <input type="checkbox" id="master-toggle" checked />
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <div class="status-banner" id="status-banner">
+      <span class="status-dot active" id="status-dot"></span>
+      <span class="status-label" id="status-text">Unblocker is Active</span>
+    </div>
+
+    <div class="article-card" id="article-info">
+      <div class="card-tag">DETECTED ARTICLE</div>
+      <h3 id="popup-title" class="article-title">Loading article data...</h3>
+      <p id="popup-meta" class="article-meta">Checking current tab...</p>
+    </div>
+
+    <div class="actions-grid">
+      <button class="action-btn primary" id="btn-reader">
+        <span class="btn-icon">📖</span>
+        <span class="btn-text">Reader Mode</span>
+      </button>
+      <button class="action-btn" id="btn-copy">
+        <span class="btn-icon">📋</span>
+        <span class="btn-text">Copy All Text</span>
+      </button>
+    </div>
+
+    <div class="feature-list">
+      <div class="feature-item">
+        <span class="feature-icon">✓</span>
+        <span>Extracts full Next.js hydration payload</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">✓</span>
+        <span>Removes meter paywall modals & blurs</span>
+      </div>
+      <div class="feature-item">
+        <span class="feature-icon">✓</span>
+        <span>Toggle On / Off anytime with instant save</span>
+      </div>
+    </div>
+
+    <div class="popup-footer">
+      <span>Tradejini Research Tools</span>
+      <span class="version">v1.2.0</span>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
